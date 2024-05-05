@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+    <link rel="icon" href="<%= BASE_URL %>icon.ico">
+    <title>KPS Denpasar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="extensions/filter-control/bootstrap-table-filter-control.css">
+    <link rel="stylesheet" href="//unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  
+    <link rel="stylesheet" href="https://unpkg.com/@vueup/vue-quill@latest/dist/vue-quill.snow.prod.css">
+    <link rel="stylesheet" href="https://unpkg.com/@vueup/vue-quill@1.1.0/dist/vue-quill.snow.prod.css">
+    <link rel="stylesheet" href="quill/dist/quill.core.css"/>
+    <link rel="stylesheet" href="quill/dist/quill.snow.css"/>
+    <link rel="stylesheet" href="quill/dist/quill.bubble.css"/>
+
+  </head>
+  <body>
+    <script src="extensions/filter-control/bootstrap-table-filter-control.js"></script>
+    <script src="//unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="//unpkg.com/vue2-leaflet"></script>
+
+    <script type="text/javascript" src="quill/dist/quill.js"></script>
+    <script type="text/javascript" src="path/to/vue.min.js"></script>
+    <script type="text/javascript" src="vue-quill-editor/dist/vue-quill-editor.js"></script>
+    <script type="text/javascript">
+      Vue.use(window.VueQuillEditor)
+    </script>
+
+
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+
+      
+    </div>
+    <!-- built files will be auto injected -->
+    
+  </body>
+</html>
